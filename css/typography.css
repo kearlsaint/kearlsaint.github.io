@@ -1,0 +1,12 @@
+h1, h2, h3, h4, h5, h6 { font-weight: 300; margin: 16px 0 }
+h1, h2 { line-height: 1em }
+h3, h4, [lead] { line-height: 1.5em }
+h5, h6, p, [lead] { line-height: 2em; margin-left: .125em  }
+p { font-size: 16px }
+h1 { font-size: 36px }
+h2 { font-size: 28px }
+h3 { font-size: 24px }
+h4 { font-size: 20px }
+h5 { font-size: 18px }
+h6 { font-size: 16px }
+[lead] { font-size: 20px!important }

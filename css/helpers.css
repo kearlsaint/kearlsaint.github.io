@@ -1,0 +1,62 @@
+[fluid] {
+	display: block;
+	width: 100%;
+}
+[italic] {
+	font-style: italic!important;
+}
+[oblique] {
+	/* for the difference, read: http://stackoverflow.com/questions/1680624/font-style-italic-vs-oblique-in-css */
+	font-style: oblique!important;
+}
+[bold] {
+	font-weight: 700!important;
+}
+[lighter] {
+	font-weight: 300!important;
+}
+[thin] {
+	font-weight: 100!important;
+}
+[muted] {
+	color: #eee!important;
+}
+[smaller] {
+	font-size: smaller!important;
+}
+[align-left] {
+	text-align: left!important;
+}
+[align-right] {
+	text-align: right!important;
+}
+[align-center], [centered] {
+	text-align: center!important;
+}
+[align-justify], [justified] {
+	text-align: justify!important;
+}
+[v-top] {
+	vertical-align: text-top!important;
+}
+[v-middle] {
+	vertical-align: middle!important;
+}
+[v-bottom] {
+	vertical-align: baseline!important;
+}
+[uppercase] {
+	text-transform: uppercase!important;
+}
+[lowercase] {
+	text-transform: lowercase!important;
+}
+[capitalize] {
+	text-transform: capitalize!important;
+}
+[padded] {
+	padding: 8px!important;
+}
+[nopadding] {
+	padding: 0!important;
+}

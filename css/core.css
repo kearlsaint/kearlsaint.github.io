@@ -1,0 +1,128 @@
+* {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-tap-highlight-color: rgba(100,30,10,0); /* tap highlight color / shadow */
+	-webkit-user-select: text;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	-moz-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-moz-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-moz-tap-highlight-color: rgba(100,30,10,0); /* tap highlight color / shadow */
+	-moz-user-select: text;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	font-family: "Helvetica Neue", "Roboto", Tahoma, sans-serif !important;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	/* make em responsive */
+	max-width: 100%;
+}
+
+img { display: inline-block }
+
+blur, view, content,
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	color: rgba(50, 100, 150, 0.8);
+}
+b {
+	font-weight: 700;
+}
+i, em{
+	font-style: italic;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;   
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+span {
+	display: inline-block;
+}
+/* end of resets */
+
+/***********************************/
+
+/* thin out the scrollbars */
+::-webkit-scrollbar {
+	width: 4px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+	border: 0px solid transparent;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	/*background: rgba(180, 180, 180, .8);*/
+	background: #aaa!important;
+}
+::-webkit-scrollbar-corner {
+	background:#e0e0e0;
+}
+
+/* overflow fix for touch */
+nav, content, view { -webkit-overflow-scrolling: touch; }
+
+/* desktops/hi-dpi */
+@media (min-width: 701px) {
+}
+
+/* mobiles / low-dpi */
+@media (max-width: 700px) {
+}
